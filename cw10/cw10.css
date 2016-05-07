@@ -1,0 +1,49 @@
+h1{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    border-bottom: solid thin gray;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    border: solid thin gray;
+    display: inline-block;
+    color: #9999ff;
+    background-color: blue;
+    width: 200px;
+}
+a:hover{
+     color: blue;
+    background-color: #9999ff;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: grey;
+     border: solid thin black;
+     text-align: center;
+     padding: 5px;
+}
+td{
+    border: solid thin black;
+    text-align: left;
+     padding: 5px;
+}
+span.error{
+    color: red;
+    
+}
+span.info{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+input{
+    width: 150px;
+}
+div.line{
+    margin-top: 10px;
+}
+

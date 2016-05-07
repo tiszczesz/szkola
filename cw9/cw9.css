@@ -1,0 +1,29 @@
+
+
+div.student{
+    margin: 10px;
+    padding: 5px;
+    border: solid thin gray;
+    background-color: #9999ff;
+}
+div.student p{
+    margin-left: 20px;
+}
+div.teacher{
+    margin: 10px;
+    padding: 5px;
+    border: solid thin green;
+    background-color: #ccff33;
+}
+div.teacher p{
+    margin-left: 20px;
+}
+div.worker{
+    margin: 10px;
+    padding: 5px;
+    border: solid thin blue;
+    background-color: #cc99ff;
+}
+div.worker p{
+    margin-left: 20px;
+}

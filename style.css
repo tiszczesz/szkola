@@ -1,0 +1,31 @@
+h1{
+    margin: auto;
+    border-bottom: solid 3px gray;
+    text-align: center;
+    width: 600px;
+}
+div#menu ul{
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+}
+div#menu ul li{
+    margin: 0;
+}
+div#menu ul li a{
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border: solid thin gray;
+    height: 20px;
+    text-align: right;
+    width: 300px;
+    background-color: blueviolet;
+    color: white;
+}
+div#menu ul li a:hover{
+    background-color: #ccccff;
+    color: black;
+}

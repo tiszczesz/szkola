@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Dodaj pracownika</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="cw7.css"/>
+   <script src="cw7.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Dodawanie pracownika</h1>
+            <form method="POST" action="wynik.php" id="form1">
+                <fieldset>
+                    <legend>Dane pracownika</legend>
+                    <div class="line">
+                        <span class="info">Imię:</span>
+                        <input type="text" id="imie" name="imie"/>
+                        <span class="error" id="errorimie"></span>
+                    </div>
+                    <div class="line">
+                        <span class="info">Nazwisko</span>
+                        <input type="text" id="nazwisko" name="nazwisko"/>
+                        <span class="error" id="errornazwisko"></span>
+                    </div>
+                    <div class="line">
+                        <span class="info">Stanowisko</span>
+                        <select name="stanowisko">
+                            <option value="kierownik">kierownik</option>
+                            <option value="asystent">asystent</option>
+                            <option value="kierowca">kierowca</option>
+                            <option value="pracownik fizyczny">pracownik fizyczny</option>
+                            <option value="menager">menager</option>
+                            <option value="pracownik umysłowy">pracownik umysłowy</option>
+                            <option value="sprzedawca">sprzedawca</option>
+                        </select>
+                    </div>
+                   <div class="line">
+                        <span class="info">Pensja</span>
+                        <input type="text" id="pensja" name="pensja"/>
+                        <span class="error" id="errorpensja"></span>
+                    </div> 
+                    <div class="line">
+                        <span class="info"></span>
+                        <input type="submit" id="dodaj" value="Dodaj"/>
+                        
+                    </div> 
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

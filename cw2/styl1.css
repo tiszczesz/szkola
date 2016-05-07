@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    border: solid thin black;
+    background-color: brown;
+    color: white;
+}
+td{
+    padding: 2px;
+    text-align: right;
+     border: solid thin black;
+}
+td.wyr{
+    color:red;
+}
+
+
+

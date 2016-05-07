@@ -1,0 +1,7 @@
+Jan|Nowak|pracownik fizyczny|1900
+Adam|Małecki|zastępca dyrektora|4500
+Monika|Hajduk|sekretarka|3300
+Franciszek|Jarecki|sprzedawca|2900
+Teresa|Wróbel|menager|3200
+Gerwazy|Rypel|kierowca|2900
+Franek|Dolas|kierownik|4

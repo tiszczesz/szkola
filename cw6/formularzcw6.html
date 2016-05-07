@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularz Zgłoszeniowy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="cw6.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="../cw2/styl1.css" type="text/css">
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <form action="wynik.php" method="POST" name="form1">
+                <fieldset>
+                    <legend>Podaj informacje o sobie</legend>
+                    <div class="line">
+                        <span class="info">Imię: </span>
+                        <input type="text" id="imie" name="imie"/>
+                    </div>
+                    <div class="line">
+                        <span class="info">Nazwisko: </span>
+                        <input type="text" id="nazwisko" name="nazwisko"/>
+                    </div>
+                    <div class="line">
+                        <span class="info">Wiek: </span>
+                        <input type="text" id="wiek" name="wiek"/>
+                    </div>
+                    <div class="line">
+                        <span class="info">Płeć: </span><br>
+                        <span class="info2">Kobieta: </span><input type="radio" id="k" name="plec" value="Kobieta"/><br>
+                        <span class="info2">Mężczyzna: </span><input type="radio" id="p" name="plec" value="Mężczyzna"/>
+                    </div>
+                    <div class="line">
+                        <span class="info">Zainteresowania: </span><br>
+                        <span class="info2">Sport: </span>
+                        <input type="checkbox" id="sport" name="zainteresowania[]" value="sport"/><br>
+                        <span class="info2">Muzyka: </span>
+                        <input type="checkbox" id="muzyka" name="zainteresowania[]" value="muzyka"/><br>
+                        <span class="info2">Książki </span>
+                        <input type="checkbox" id="ksiazki" name="zainteresowania[]" value="ksiazki"/><br>
+                        <span class="info2">Filmy: </span>
+                        <input type="checkbox" id="filmy" name="zainteresowania[]" value="filmy"/>
+                    </div>
+                    <div class="line">
+                        <span class="info">Wykształcenie </span>
+                        <select id="wyksztalcenie" name="wyksztalcenie">
+                            <option value="podstawowe">podstawowe</option>
+                            <option value="średnie">średnie</option>
+                            <option value="wyższe">wyższe</option>
+                        </select>  
+                    </div>
+                    <span class="info"> </span><input type="submit" value="Zatwierdź" />
+                </fieldset>
+            </form>
+
+
+        </div>
+    </body>
+</html>
