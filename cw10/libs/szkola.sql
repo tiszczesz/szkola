@@ -15,6 +15,7 @@ SET time_zone = "+00:00";
 --
 -- Baza danych: `szkola`
 --
+DROP DATABASE IF EXISTS `szkola`;
 CREATE DATABASE IF NOT EXISTS `szkola` DEFAULT CHARACTER SET utf8 COLLATE utf8_polish_ci;
 USE `szkola`;
 
@@ -25,7 +26,7 @@ USE `szkola`;
 --
 
 
-GRANT ALL PRIVILEGES ON `szkola`.* TO 'user'@'localhost' IDENTIFIED VIA mysql_native_password USING 'user';
+GRANT ALL PRIVILEGES ON `szkola`.* TO 'user'@'localhost' IDENTIFIED BY 'user';
 
 CREATE TABLE `klasy` (
   `id` int(11) NOT NULL,
